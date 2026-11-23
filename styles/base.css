@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--ease: cubic-bezier(0.22, 1, 0.36, 1);
+	--color-bg: #8b837c;
+	--color-surface: #d8d3cd;
+	--color-text: #4a4541;
+	--color-text-muted: #737373;
+	--color-ring: #625b56;
+	--color-icon-bg: #6f6862;
+	--color-badge-dark: #4b4b4b;
+	--color-icon-border: rgba(255, 255, 255, 0.25);
+	--color-icon-fill: #c7c1bc;
+	--color-white: #ffffff;
+	--color-shadow: rgba(0, 0, 0, 0.35);
+	--shadow-badge: 0.977rem 0.823rem 1.5425rem -0.30875rem rgba(65, 60, 57, 0.21);
+}
+
+body {
+	font-family: system-ui, -apple-system, sans-serif;
+	background: var(--color-bg);
+	color: var(--color-text);
+	overflow: hidden;
+	height: 100vh;
+}
